@@ -1,7 +1,6 @@
 import {Outlet, ReactLocation, Router} from '@tanstack/react-location'
 
-import {Home} from './home'
-import {JotaiCharacterCounter, RecoilCharacterCounter} from './examples'
+import {Home, JotaiCharacterCounter, RecoilCharacterCounter} from './pages'
 
 const location = new ReactLocation()
 
@@ -19,4 +18,4 @@ function App() {
   )
 }
 
-export default App
+export {App}
