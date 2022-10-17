@@ -10,6 +10,7 @@
     "prettier": "prettier --write \"src/**/*.{js,ts,tsx,css}\""
   },
   "dependencies": {
+    "@tanstack/react-location": "^3.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "recoil": "^0.7.6"
