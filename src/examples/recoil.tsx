@@ -43,6 +43,7 @@ function CharacterCount() {
 function RecoilCharacterCounter() {
   return (
     <RecoilRoot>
+      <h1>Recoil</h1>
       <TextInput />
       <CharacterCount />
     </RecoilRoot>

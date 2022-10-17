@@ -1,13 +1,14 @@
 import {Outlet, ReactLocation, Router} from '@tanstack/react-location'
 
 import {Home} from './home'
-import {RecoilCharacterCounter} from './examples/recoil'
+import {JotaiCharacterCounter, RecoilCharacterCounter} from './examples'
 
 const location = new ReactLocation()
 
 const routes = [
   {path: '/', element: <Home />},
   {path: 'recoil', element: <RecoilCharacterCounter />},
+  {path: 'jotai', element: <JotaiCharacterCounter />},
 ]
 
 function App() {
